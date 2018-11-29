@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-Just run a jupyter container at this jupyter-notebooks path:
+Just run a [gradiant/jupyter:5.70-spark2.4.0](https://hub.docker.com/r/gradiant/jupyter/) container pointing to this github repo:
 
 ```
 docker run -p 8888:8888 -ti --rm -e NOTEBOOKS_URL=https://github.com/Gradiant/notebooks.git --name=jupyter -h jupyter gradiant/jupyter:5.7.0-spark2.4.0
